@@ -8,7 +8,7 @@ import telegram
 import requests
 import utils
 import importlib
-
+import re
 language = configloader.config["Config"]["language"]
 strings = importlib.import_module("strings." + language)
 

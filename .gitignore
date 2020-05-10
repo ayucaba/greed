@@ -101,6 +101,6 @@ ENV/
 .mypy_cache/
 .idea/
 
-config/config.ini
+
 *.sqlite
 *.sqlite-journal
